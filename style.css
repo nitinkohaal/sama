@@ -108,7 +108,7 @@ body{
  }
 
  .nav-item:hover{
-   color: var(--secondary-color);
+   color: var(--primary-color);
 
    
  }
@@ -119,7 +119,7 @@ body{
    position: absolute;
    width: 0;
    height: 2px;
-   background-color: var(--secondary-color);
+   background-color: var(--primary-color);
    bottom: -5px;
    left: 0;
    transition: all 0.2s ease;
