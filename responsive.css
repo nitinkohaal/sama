@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+/* phone  size  */
+
+
+@media(max-width: 550px){
+ 
+    .logo{
+        height: 30px;
+    }
+
+    .hero-para{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .title{
+        font-size: 30px;
+        
+    }
+
+    .about-para{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
