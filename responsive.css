@@ -1,6 +1,25 @@
 
 
 
+@media screen and (max-width: 1041px) {
+    .about-para{
+        font-size: 16px;
+    }   
+    .about-item-img{
+        font-size: 25px;
+    }
+
+    .about-item-img-1{
+        height:40px;
+        width: 40px;
+    }
+    
+
+    .about-img{
+        height: 400px;
+    }
+}
+
 
 
 
@@ -27,6 +46,16 @@
 
     .about-para{
         font-size: 16px;
-        line-height: 1.5;
+    }
+
+    .about-img{
+        height: 200px;
+    }
+
+    .about{
+        padding: 50px 0;
+    }
+    .about-subtitle{
+        font-size: 20px;
     }
 }

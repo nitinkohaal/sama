@@ -16,7 +16,7 @@
     --secondary-color:#dd4024;
     --primary-color:#2F2E34;
     --white-shade:#efefef;
-    --text-color:#2F2E34;
+    --para-shade: #777777;
     
     
     
@@ -298,90 +298,6 @@ body{
     z-index: 1;
   }
 
-  /* about-section */
-
-  .about-section{
-    position: relative;
-    
-    
-  }
-
-  .about{
-    padding: 100px 0;
-  }
-
-  .about-img{
-    position: relative;
-  }
-
-  .bike-about{
-    /* position: absolute; */
-    object-fit: contain;
-   
-  }
-
-  .title{
-    font-size: 60px;
-    font-weight: 600;
-    color: var(--white-shade);
-    text-transform: uppercase;
-    position: relative;
-    
-  }
-
-  .title::after{
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 5px;
-    background:linear-gradient(to right, #dd4024, #ffa013); ;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50px;
-
-  }
-
-
-
-  .about-para{
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--white-shade);
-    text-wrap: wrap;
-    text-wrap-style: balance;
-
-  }
-
-  .about-tagline{
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--text-color);
-    line-height: 2;
-
-  }
-
-  .sama{
-    color: transparent;
-    background-image: linear-gradient(to right, #dd4024, #ffa013);
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-
-  }
-
-  .about-des{
-    font-size: 30px;
-    font-weight: 600;
-    color: var(--white-shade);
-    line-height: 30px;
-    
-  }
-
-  
-
   .btn-secondary{
     background: linear-gradient(to right, #dd4024, #ffa013);
     padding: 10px 20px;
@@ -396,27 +312,117 @@ body{
 
   }
 
-  .highlights{
+  /* about-section */
+
+
+  
+   .about-section{
+
+   background-color: var(--white-shade);
+   
+
+  } 
+
+  .about{
+    padding: 100px 0;   
+    position: relative;
+  }
+
+  
+
+  .about-title{
+    font-size: 18px;
+    font-weight: 700;
     color: var(--secondary-color);
-  }
-  
-  .grid-item{
-  background: var(--white-shade);
-  padding: 30px 10px;
-  border-left: 5px solid #dd4024;
-  border-radius: 20px;
-  text-align: center;
+    text-transform: uppercase;
   }
 
-  .about-btn-link{
-    text-decoration: none;
-    color: var(--white-shade);
+  .about-subtitle{
+    font-size: calc(18px + 1.5vw);
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  .about-content{
+    z-index: 2;
+  }
+ .about-img{
+    height: 500px;
+  } 
+  .section-about__img{
+   
+    object-fit: contain;
+    object-position: center;
+    z-index: 1;
+  }
+
+
+  .about-para{
+    font-size: 18px;
+    color:var(--para-shade);
+    text-wrap: balance;
+
+    
+  }
+
+  .about-title-2{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+  }
+
+  .about-item{
     font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+
+  .about-item-img{
+    font-size: 40px;
+  }
+
+  .about-item-img-1{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #9d9a9a8c;
+  }
+
+  .about-image-2{
+    bottom: 0px;
+    height: 250px;
+    right: 150px;
+    
+  }
+  .about-img-grid{
+    height: 100%;
+  }
+
+  .about-image-2-1{
+            background-image: url("https://cdn.pixabay.com/photo/2015/08/27/09/06/bike-909690_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            
+  }
+
+  .about-image-2-2{
+            background-image: url("https://cdn.pixabay.com/photo/2015/08/27/09/06/bike-909690_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100%;
   }
 
 
+
+
   
+
+
+
+
+
+
   
-
-
-
