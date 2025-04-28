@@ -13,13 +13,45 @@
         height:40px;
         width: 40px;
     }
+
+    .section-about__img{
+        width: 70%;
+        
+    }
+
+    .about-image-2 {
+        top: -34px;
+        left: -130px;
+    }
     
 
-    .about-img{
-        height: 400px;
-    }
+  
 }
 
+@media screen  and (max-width: 768px) {
+
+    .about{
+        padding: 50px 0;
+    }
+    .section-about__img{
+        width: 100%;
+        height: 300px;
+        
+    }
+
+    .about-content-3{
+        height: 200px;
+    }
+
+    
+
+    .about-image-2 {
+       position: static;
+       border: 0;
+
+    }
+    
+}
 
 
 
@@ -32,6 +64,10 @@
  
     .logo{
         height: 30px;
+    }
+
+    .hero-section{
+        height: 100dvh;
     }
 
     .hero-para{
@@ -48,14 +84,30 @@
         font-size: 16px;
     }
 
-    .about-img{
-        height: 200px;
-    }
+    
 
     .about{
         padding: 50px 0;
     }
+
+    .section-about__img{
+        height: 200px;
+    }
     .about-subtitle{
         font-size: 20px;
     }
+
+    .hero-tag-main{
+        padding: 0;
+
+    }
+
+    .hero-tag-title{
+        font-size: 18px;
+    }
+
+    .All-btn{
+        padding: 15px 0;
+    }
+    
 }
