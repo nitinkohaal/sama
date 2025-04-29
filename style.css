@@ -85,6 +85,7 @@ body{
    padding: 8px 16px;
    display: flex;
    align-items: center;
+   border-radius: 30px; 
  }
 
  .divider {
@@ -256,10 +257,11 @@ body{
   }
 
   .hero-tag-title{
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--white-shade);
+    font-size: 16px;
+    color: var(--primary-color);
     text-transform: uppercase;
+    font-weight: 800;
+
   }
 
   .hero-tag-item{
@@ -290,7 +292,6 @@ body{
   }
 
   .All-btn{
-    /* background-color: #944634; */
     padding: 20px 0px;
     display: flex;
     align-items: center;
@@ -301,14 +302,14 @@ body{
 
   .All-btn a{
     color: var(--white-shade) !important;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: capitalize;
     position: relative;
     padding: 0px 22px;
     cursor: pointer;
-    letter-spacing: 2px;
     text-decoration: none;
     transition: all 0.3s ease;
+    font-weight: 600;
   }
 
   .All-btn a:hover{
@@ -318,7 +319,7 @@ body{
   .All-btn a::after{
     content: "";
     position: absolute;
-    width: 2px;
+    width: 1px;
     height: 100%;
     background: var(--white-shade);
     right: 0px;
