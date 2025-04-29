@@ -509,6 +509,14 @@ body{
     background-color: #FFFFFF0F;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #0000004a;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+  }
+
+  .feature-item:hover{
+    scale: 0.95;
+    border:1px solid var(--secondary-color);
+
   }
 
   .feature-item-img{
