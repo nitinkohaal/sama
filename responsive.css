@@ -110,4 +110,25 @@
         padding: 15px 0;
     }
     
+    /* fetaure  */
+
+    .feature-container{
+        padding: 50px 0;
+    }
+
+    .feature-title{
+        font-size: 26px;
+    }
+
+    .feature-para{
+        font-size: 14px;
+    }
+
+    .feature-item{
+        padding: 10px;
+    }
+
+    .feature-item-img{
+        height: 150px;
+    }
 }
