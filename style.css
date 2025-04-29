@@ -559,6 +559,23 @@ body{
   }
 
 
+  .feature-content-2-1::-webkit-scrollbar{
+    height: 1px;
+    background-color: var(--primary-color);
+  }
+  .feature-content-2-1::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-color);
+  }
+
+  .feature-content-2-1::-webkit-scrollbar-thumb:hover{
+    background-color: var(--white-shade);
+  }
+
+  .feature-content-2-1::-webkit-scrollbar-track{
+    background-color: var(--primary-color);
+  }
+
+
 
   
 
