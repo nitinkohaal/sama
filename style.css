@@ -515,7 +515,7 @@ body{
     height: 200px;
     border: 1px solid var(--para-shade);
     border-radius: 10px;
-    background-color: #efefef7b;
+    background-color: #ffffff;
     backdrop-filter: blur(8px);
     padding: 10px;
 
