@@ -27,8 +27,64 @@ body{
     background-color: var(--primary-color);
 }
 
+/* scroll  */
+.scroll-up {
+  background-color: var(--secondary-color, #fff);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: var(--black-shade);
+  font-size: 24px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scroll-up.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.progress-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+.progress-ring-bg,
+.progress-ring-circle {
+  fill: none;
+  stroke-width: 2;
+  r: 26;
+  cx: 30;
+  cy: 30;
+}
+
+.progress-ring-bg {
+  stroke: #dd4024;
+}
+
+.progress-ring-circle {
+  stroke: #2F2E34;
+  stroke-linecap: round;
+  stroke-dasharray: 163.36;
+  stroke-dashoffset: 163.36;
+  transition: stroke-dashoffset 0.3s ease;
+}
+
 
 /* navigaition */
+
 
 
 
@@ -37,6 +93,7 @@ body{
    top: 0;
    left: 0;
    z-index: 100;
+   background-color: var(--white-shade);
    
  }
 
