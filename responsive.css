@@ -103,11 +103,17 @@
     }
 
     .hero-tag-title{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .All-btn{
         padding: 15px 0;
+    }
+
+    .All-btn a{
+        font-size: 14px;
+        font-weight: 500;
+
     }
     
     /* fetaure  */
@@ -130,5 +136,10 @@
 
     .feature-item-img{
         height: 150px;
+    }
+
+    .scroll-up{
+        bottom:15px;
+        right: 15px;
     }
 }
