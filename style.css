@@ -625,7 +625,7 @@ body{
 
 
   .feature-content-2-1::-webkit-scrollbar{
-    height: 1px;
+    height: 5px;
     background-color: var(--primary-color);
   }
   .feature-content-2-1::-webkit-scrollbar-thumb{
@@ -639,6 +639,8 @@ body{
   .feature-content-2-1::-webkit-scrollbar-track{
     background-color: var(--primary-color);
   }
+
+ 
 
 
 
