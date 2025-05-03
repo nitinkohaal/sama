@@ -55,3 +55,33 @@ window.addEventListener("scroll", () => {
   });
 
 
+// serch bike 
+
+
+  // const brandSelect = document.getElementById('bike-brand');
+  // const modelSelect = document.getElementById('bike-model');
+
+  // brandSelect.addEventListener('change', function () {
+  //   const selectedBrand = this.value;
+  //   if (!selectedBrand) return;
+
+  //   fetch('https://mocki.io/v1/69c0b6a8-5a0a-4d7e-8c17-118d81ff3171') // Replace with your API link
+  //     .then(response => response.json())
+  //     .then(data => {
+  //       // Clear old options
+  //       modelSelect.innerHTML = '<option value="">Bike model</option>';
+
+  //       // Populate new models
+  //       if (data[selectedBrand]) {
+  //         data[selectedBrand].forEach(model => {
+  //           const option = document.createElement('option');
+  //           option.value = model;
+  //           option.textContent = model;
+  //           modelSelect.appendChild(option);
+  //         });
+  //       }
+  //     })
+  //     .catch(error => {
+  //       console.error('Error fetching bike models:', error);
+  //     });
+  // });

@@ -469,26 +469,40 @@ body{
     background-color: var(--primary-color);
   }
 
-  .accessories-container{
-    padding: 50px 0 100px 0;
-  }
-  .accessories-title{
+  .all-catogories{
     font-size: 48px;
     font-weight: 700;
     color: var(--white-shade);
     text-transform: uppercase;
   }
 
+  .accessories-container{
+    padding: 0 0 50px 0;
+  }
+
+  .line{
+    height: 2px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+  }
+  .accessories-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-shade);
+    text-transform: uppercase;
+  }
+
   .accessories-para{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     color: var(--para-shade);
     text-align: center;
     text-wrap: balance;
+    letter-spacing: 0.3;
   }
 
   .accessories-item{
-    padding: 30px;
+    padding: 15px;
     background-color: #FFFFFF0F;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #0000004a;
@@ -518,28 +532,28 @@ body{
     object-position: center;
   }
   .accessories-title-2-1{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: var(--white-shade);
     text-transform: uppercase;
   }
 
   .accessories-name{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--white-shade);
     text-transform: capitalize;
   }
 
   .accessories-desc{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     color: var(--white-shade);
     text-transform: capitalize;
   }
 
   .accessories-btn{
-    padding: 8px 15px;
+    padding: 5px 15px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
