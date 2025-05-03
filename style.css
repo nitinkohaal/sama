@@ -463,30 +463,31 @@ body{
   }
 
 
-  /* feature product  */
+  /* accessories product  */
 
-  .feature-section{
+  .accessories-section{
     background-color: var(--primary-color);
   }
 
-  .feature-container{
-    padding: 100px 0;
+  .accessories-container{
+    padding: 50px 0 100px 0;
   }
-  .feature-title{
+  .accessories-title{
     font-size: 48px;
     font-weight: 700;
     color: var(--white-shade);
     text-transform: uppercase;
   }
 
-  .feature-para{
+  .accessories-para{
     font-size: 18px;
     font-weight: 300;
     color: var(--para-shade);
     text-align: center;
     text-wrap: balance;
   }
-  .feature-item{
+
+  .accessories-item{
     padding: 30px;
     background-color: #FFFFFF0F;
     border-radius: 10px;
@@ -497,13 +498,13 @@ body{
 
  
 
-  .feature-item:hover{
+  .accessories-item:hover{
     scale: 0.95;
     border:1px solid var(--secondary-color);
 
   }
 
-  .feature-item-img{
+  .accessories-item-img{
     height: 200px;
     border: 1px solid var(--para-shade);
     border-radius: 10px;
@@ -512,32 +513,32 @@ body{
     padding: 10px;
 
   }
-  .feature-item-img img{
+  .accessories-item-img img{
     object-fit: contain;
     object-position: center;
   }
-  .feature-title-2-1{
+  .accessories-title-2-1{
     font-size: 16px;
     font-weight: 500;
     color: var(--white-shade);
     text-transform: uppercase;
   }
 
-  .feature-name{
+  .accessories-name{
     font-size: 16px;
     font-weight: 600;
     color: var(--white-shade);
     text-transform: capitalize;
   }
 
-  .feature-desc{
+  .accessories-desc{
     font-size: 14px;
     font-weight: 300;
     color: var(--white-shade);
     text-transform: capitalize;
   }
 
-  .feature-btn{
+  .accessories-btn{
     padding: 8px 15px;
     text-decoration: none;
     text-transform: uppercase;
@@ -552,27 +553,26 @@ body{
 
 
 
-  .feature-content-2-1::-webkit-scrollbar{
+  .accessories-content-2-1::-webkit-scrollbar{
     height: 5px;
     background-color: var(--primary-color);
   }
-  .feature-content-2-1::-webkit-scrollbar-thumb{
+  .accessories-content-2-1::-webkit-scrollbar-thumb{
     background-color: var(--secondary-color);
   }
 
-  .feature-content-2-1::-webkit-scrollbar-thumb:hover{
+  .accessories-content-2-1::-webkit-scrollbar-thumb:hover{
     background-color: var(--white-shade);
     cursor: grabbing;
   }
 
-  .feature-content-2-1::-webkit-scrollbar-track{
+  .accessories-content-2-1::-webkit-scrollbar-track{
     background-color: var(--primary-color);
   }
 
   
 
   .hero-tag{
-    /* height: 70px; */
     z-index: 2;
     background-color: var(--secondary-color);
     box-shadow: 0px 0px 10px #0000004a;
