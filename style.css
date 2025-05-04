@@ -339,7 +339,7 @@ body{
   }
 
   .btn-secondary{
-    background: linear-gradient(to right, #dd4024, #ffa013);
+    background: var(--secondary-color);
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
@@ -490,6 +490,8 @@ body{
     font-weight: 700;
     color: var(--white-shade);
     text-transform: uppercase;
+    background-color: var(--secondary-color);
+
   }
 
   .accessories-para{

@@ -33,7 +33,9 @@
 }
 
 @media screen  and (max-width: 768px) {
-
+    .nav-bar{
+        padding: 20px 0;
+    }
     .about{
         padding: 50px 0;
     }
@@ -69,6 +71,8 @@
 
     .accessories-title{
         font-size: 20px;
+        
+    
     }
 
     .search-bike{
@@ -79,6 +83,9 @@
         width: 100%;
     }
     
+    .accessories-item{
+        padding: 10px;
+    }
     
 }
 
