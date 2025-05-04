@@ -674,6 +674,22 @@ body{
   }
 
   
+  .search-bike {
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .search-bike option {
+    border-radius: 10px;
+
+
+  }
+
+  
 
 
  

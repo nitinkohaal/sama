@@ -23,6 +23,10 @@
         top: -34px;
         left: -130px;
     }
+
+    .accessories-item-img{
+        height: 150px;
+    }
     
 
   
@@ -50,6 +54,31 @@
        border: 0;
 
     }
+
+    .all-catogories{
+        font-size: 36px;
+    }
+
+    .accessories-btn{
+        padding: 5px 8px;
+    }
+
+    .accessories-name{
+        font-size: 12px;
+    }
+
+    .accessories-title{
+        font-size: 20px;
+    }
+
+    .search-bike{
+        width: 150px;
+    }
+
+    .search-bike{
+        width: 100%;
+    }
+    
     
 }
 
