@@ -230,7 +230,7 @@ body{
   .hero-para{
     font-size: 48px;
     font-weight: 600;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
     color: var(--text-color);
     text-transform: uppercase;
     z-index: 7;
@@ -466,7 +466,7 @@ body{
   /* accessories product  */
 
   .accessories-section{
-    background-color: var(--primary-color);
+    background-color: var(--white-shade);
   }
 
   .all-catogories{
@@ -477,20 +477,30 @@ body{
   }
 
   .accessories-container{
-    padding: 0 0 50px 0;
+    padding:100px 0 ;
+    /* background-color: var(--primary-color); */
   }
 
-  .line{
-    height: 2px;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
+  .view-all p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-color);
+    /* text-transform:capitalize; */
+    text-decoration: none;
+    cursor: pointer;
   }
+
+  
+  .horizontal-line{
+    height: 0.5px;
+    background-color: #2f2e344b;
+  }
+    
   .accessories-title{
     font-size: 24px;
     font-weight: 700;
-    color: var(--white-shade);
-    text-transform: uppercase;
-    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-transform: capitalize;
 
   }
 
@@ -505,24 +515,21 @@ body{
 
   .accessories-item{
     padding: 15px;
-    background-color: #FFFFFF0F;
+    background-color: rgb(232, 232, 232);
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #0000004a;
+    box-shadow: 0px 0px 5px #0000005e;
     transition: all 0.3s ease;
-    border: 1px solid transparent;
   }
 
  
 
-  .accessories-item:hover{
-    scale: 0.95;
-    border:1px solid var(--secondary-color);
+ 
 
-  }
+  
 
   .accessories-item-img{
     height: 200px;
-    border: 1px solid var(--para-shade);
+    /* border: 1px solid var(--para-shade); */
     border-radius: 10px;
     background-color: #ffffff;
     backdrop-filter: blur(8px);
@@ -533,24 +540,33 @@ body{
     object-fit: contain;
     object-position: center;
   }
+
+  .accessories-title-2-1-fake{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--para-shade);
+    text-transform: uppercase;
+    text-decoration: line-through;
+
+  }
   .accessories-title-2-1{
     font-size: 14px;
     font-weight: 500;
-    color: var(--white-shade);
+    color: var(--primary-color);
     text-transform: uppercase;
   }
 
   .accessories-name{
     font-size: 14px;
     font-weight: 600;
-    color: var(--white-shade);
+    color: var(--primary-color);
     text-transform: capitalize;
   }
 
   .accessories-desc{
     font-size: 12px;
     font-weight: 300;
-    color: var(--white-shade);
+    color: var(--primary-color);
     text-transform: capitalize;
   }
 
@@ -690,6 +706,66 @@ body{
 
 
   }
+
+
+
+  /* show-catory-section */
+
+  .show-catory-section{
+    background-color: var(--white-shade);
+  }
+  .show-catory{
+    padding: 0px 0px 100px 0px;
+  
+  }
+
+  .show-catory-1{
+    height: 500px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #e5feff;
+  }
+
+
+  .shop-catory-img{
+    object-fit: cover;
+    position: absolute;
+    right: 10px;
+  }
+
+  .show-catory-2{
+    height: 500px;
+  }
+
+  .shop-catory-2-1 {
+    height: 240px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #fce4ee;
+  }
+
+  .shop-catory-2-2{
+    background-color: #e2e8ff;
+  }
+
+  .shop-catory-title{
+    font-size: 30px;
+    text-transform:uppercase;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+
+  .shop-catory-para{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--primary-color);
+  }
+
+  .shop-catory-btn1{
+    padding: 5px 12px ;
+    font-size: 12px;
+  }
+  
 
   
 
