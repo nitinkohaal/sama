@@ -515,9 +515,9 @@ body{
 
   .accessories-item{
     padding: 15px;
-    background-color: rgb(232, 232, 232);
+    background-color: var(--white-shade);
     border-radius: 10px;
-    box-shadow: 0px 0px 5px #0000005e;
+    box-shadow: 0px 0px 10px #00000020;
     transition: all 0.3s ease;
   }
 
@@ -571,16 +571,24 @@ body{
   }
 
   .accessories-btn{
-    padding: 5px 15px;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 400;
     outline: none;
     border: none;
-    border-radius: 5px;
     color: var(--white-shade);
     background-color: var(--secondary-color);
+    font-size: 20px;
+    transition: all 0.3s ease;
+
+  }
+
+  .accessories-btn:hover{
+    cursor: pointer;
   }
 
 
@@ -600,6 +608,8 @@ body{
 
   .accessories-content-2-1::-webkit-scrollbar-track{
     background-color: var(--primary-color);
+    border-radius: 30px;
+    
   }
 
   
@@ -610,6 +620,9 @@ body{
     box-shadow: 0px 0px 10px #0000004a;
 
   }
+  .hero-tag-main{
+    box-shadow: 0px 0px 10px #0000004a;
+  }
 
   .hero-tag-title{
     font-size: 16px;
@@ -617,9 +630,6 @@ body{
     text-transform: uppercase;
     font-weight: 700;
 
-  }
-  .hero-tag-main{
-    box-shadow: 0px 0px 10px #0000004a;
   }
 
   .hero-tag-item{
@@ -676,7 +686,8 @@ body{
 
   .hero-tag-item2::-webkit-scrollbar{
     height: 5px;
-    background-color: var(--primary-color);
+    background-color: var(--para-shade);
+    border-radius: 10px;
 
   }
 
@@ -687,9 +698,7 @@ body{
 
   }
 
-  .hero-tag-item2::-webkit-scrollbar-thumb:hover{
-    background-color: #8d8484;
-  }
+ 
 
   
   .search-bike {
@@ -723,14 +732,17 @@ body{
     height: 500px;
     position: relative;
     border-radius: 20px;
-    background-color: #e5feff;
+    background: linear-gradient(to bottom, #e5feff, var(--white-shade));
+
   }
+  
 
 
   .shop-catory-img{
     object-fit: cover;
     position: absolute;
     right: 10px;
+    height: 90%;
   }
 
   .show-catory-2{
@@ -741,11 +753,12 @@ body{
     height: 240px;
     position: relative;
     border-radius: 20px;
-    background-color: #fce4ee;
+    background: linear-gradient(to bottom, #fce4ee, var(--white-shade));
   }
 
   .shop-catory-2-2{
-    background-color: #e2e8ff;
+    background: linear-gradient(to bottom, #e2e8ff, var(--white-shade));
+
   }
 
   .shop-catory-title{
@@ -755,11 +768,35 @@ body{
     color: var(--primary-color);
   }
 
+  .shop-catory-2-1 .shop-catory-title{
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .discount{
+    
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(171, 250, 52);
+    padding: 5px 10px;
+    color:var(--primary-color) ;
+    border-radius: 20px;
+    z-index: 4;
+    font-size: 14px;
+
+  }
+
+
   .shop-catory-para{
     font-size: 16px;
     font-weight: 300;
     color: var(--primary-color);
+    line-height: 1.2;
+
   }
+
+  
 
   .shop-catory-btn1{
     padding: 5px 12px ;
