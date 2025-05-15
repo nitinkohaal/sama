@@ -85,3 +85,93 @@ window.addEventListener("scroll", () => {
   //       console.error('Error fetching bike models:', error);
   //     });
   // });
+
+
+
+  // carasoul card 
+
+
+
+  
+    // const track = document.getElementById("carousel-track");
+    // const cards = document.querySelectorAll(".card1");
+    //  const dotsContainer = document.getElementById("carousel-dots");
+    // const cardWidth = cards[0].offsetWidth ;
+
+    // const totalCards = cards.length;
+    // let position = 0;
+
+    //   // Create dots
+    // for (let i = 0; i < totalCards; i++) {
+    //   const dot = document.createElement("div");
+    //   dot.classList.add("dot");
+    //   if (i === 0) dot.classList.add("active");
+    //   dotsContainer.appendChild(dot);
+    // }
+
+    // const dots = document.querySelectorAll(".dot");
+
+
+    // function moveSlide(direction) {
+    //   const totalCards = cards.length;
+
+    //   position += direction;
+
+    //   if (position < 0) {
+    //     position = totalCards - 1;
+    //   } else if (position >= totalCards) {
+    //     position = 0;
+    //   }
+
+    //   track.style.transform = `translateX(-${position * cardWidth}px)`;
+    //   // Update dot active state
+    //   dots.forEach(dot => dot.classList.remove("active"));
+    //   dots[position].classList.add("active");
+
+    // }
+
+
+  document.querySelectorAll('.carousel-container').forEach((carousel) => {
+    const track = carousel.querySelector('.carousel-track');
+    const cards = carousel.querySelectorAll('.card1');
+    const dotsContainer = carousel.querySelector('.dots');
+    const prevBtn = carousel.querySelector('.btn-prev');
+    const nextBtn = carousel.querySelector('.btn-next');
+
+    const cardWidth = cards[0].offsetWidth;
+
+    let position = 0;
+
+    // Create dots
+    cards.forEach((_, i) => {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      if (i === 0) dot.classList.add('active');
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = dotsContainer.querySelectorAll('.dot');
+
+    function moveSlide(direction) {
+      const totalCards = cards.length;
+      position += direction;
+
+      console.log(position);
+
+      if (position < 0) position = totalCards - 1;
+      else if (position >= totalCards) position = 0;
+
+      // Animate with GSAP
+      gsap.to(track, {
+        x: -position * cardWidth,
+        duration: 0.3,
+      });
+
+      // Update dots
+      dots.forEach(dot => dot.classList.remove('active'));
+      dots[position].classList.add('active');
+    }
+
+    prevBtn.addEventListener('click', () => moveSlide(-1));
+    nextBtn.addEventListener('click', () => moveSlide(1));
+  });

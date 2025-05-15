@@ -477,7 +477,7 @@ body{
   }
 
   .accessories-container{
-    padding:100px 0 ;
+    padding:50px 0 ;
     /* background-color: var(--primary-color); */
   }
 
@@ -529,17 +529,86 @@ body{
 
   .accessories-item-img{
     height: 200px;
-    /* border: 1px solid var(--para-shade); */
     border-radius: 10px;
     background-color: #ffffff;
     backdrop-filter: blur(8px);
-    padding: 10px;
+    position: relative;
 
   }
+
+  /* carasoul  */
+
+
+  .carousel-track {
+      display: flex;
+      transition: transform 0.3s ease;
+    }
+
+    .card1 {
+      border-radius: 10px;
+      overflow: hidden;
+      
+
+    }
+
+    .card1 img {
+      height: 100%;
+      width: 80%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+     .card-btn {
+      text-align: center;
+      margin-top: 15px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .btn-cara {
+      background-color: transparent;
+      color: var(--white-shade);
+      padding:5px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .dots {
+      height: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 3px;
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .dot {
+      width: 6px;
+      height:6px;
+      border-radius: 50%;
+      background-color: var(--white-shade);
+      transition: background-color 0.3s ease;
+    }
+
+    .dot.active {
+      background-color: var(--primary-color);
+    }
+
+    
+
+
+/* 
   .accessories-item-img img{
     object-fit: contain;
     object-position: center;
-  }
+  } */
 
   .accessories-title-2-1-fake{
     font-size: 12px;
@@ -557,15 +626,15 @@ body{
   }
 
   .accessories-name{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--primary-color);
     text-transform: capitalize;
   }
 
   .accessories-desc{
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 400;
     color: var(--primary-color);
     text-transform: capitalize;
   }
@@ -580,8 +649,8 @@ body{
     font-weight: 400;
     outline: none;
     border: none;
-    color: var(--white-shade);
-    background-color: var(--secondary-color);
+    color: white;
+    background-color: var(--para-shade);
     font-size: 20px;
     transition: all 0.3s ease;
 
@@ -724,7 +793,7 @@ body{
     background-color: var(--white-shade);
   }
   .show-catory{
-    padding: 0px 0px 100px 0px;
+        padding:  50px 0px;
   
   }
 

@@ -123,18 +123,19 @@
         font-size: 36px;
     }
 
-    .accessories-btn{
-        padding: 5px 8px;
-    }
 
     .accessories-name{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .accessories-title{
         font-size: 20px;
         
     
+    }
+
+    .accessories-desc{
+        font-size: 12px;
     }
 
     .search-bike{
@@ -146,8 +147,15 @@
     }
     
     .accessories-item{
-        padding: 10px;
+        padding: 8px;
     }
+
+       .accessories-btn{
+        height: 35px;
+    width: 35px;
+        font-size: 18px;
+    }
+
 
 
     .show-catory-2{
@@ -157,6 +165,10 @@
     .shop-catory-img{
     height: 80%;
     right: 0;
+   }
+
+   .btn-cara{
+    padding: 0 5px;
    }
 
     
@@ -256,10 +268,40 @@
     }
 
      .shop-catory-img{
-    height: 50%;
+    height: 65%;
     right: 0;
     bottom: 10px;
    }
+
+   .show-catory-1{
+    height: 250px;
+   }
+
+   .accessories-container{
+    padding: 25px 0;
+   }
+
+   .show-catory{
+    padding:  25px 0;
+   }
+
+   .shop-catory-title {
+    font-size: 20px;
+    }
+
+    .shop-catory-2-1 .shop-catory-title {
+        font-size: 20px;
+    }
+
+    .shop-catory-para {
+    font-size: 14px;
+    }
+   
+        .show-catory-2 .shop-catory-para {
+        font-size: 14px;
+    }
+
+
 
        .shop-catory-2-1 {
         height: 250px;
@@ -272,6 +314,24 @@
     padding: 5px 10px;
     border-radius: 30px;
     font-size: 12px;
+    }
+
+    .accessories-item-img{
+        height: 130px;
+    }
+
+    .accessories-title-2-1-fake{
+        font-size: 10px;
+    }
+
+    .accessories-title-2-1{
+        font-size: 12px;
+    }
+
+    .accessories-btn{
+        height: 30px;
+    width: 30px;
+        font-size: 14px;
     }
 
   
