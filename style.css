@@ -521,7 +521,26 @@ body{
     border-radius: 10px;
     box-shadow: 0px 0px 10px #00000020;
     transition: all 0.3s ease;
+    position: relative;
   }
+
+  .latest-item-seen{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: var(--para-shade);
+    position: absolute;
+    top: 20px;
+    right:20px;
+    z-index: 2;
+    border: none;
+  }
+
+  .latest-item-seen i{
+    color: var(--white-shade);
+  }
+
+
 
  
 
@@ -953,7 +972,7 @@ body{
     border-radius: 50%;
     font-size: 18px;
     text-transform: capitalize;
-    background-color: var(--secondary-color);
+    background-color: var(--para-shade);
     color: var(--white-shade);
     border: none;
     /* position: absolute; */
@@ -965,7 +984,7 @@ body{
     padding: 5px 10px;
     font-size: 14px;
     text-transform: capitalize;
-    background-color: var(--secondary-color);
+    background-color: var(--para-shade);
     color: var(--white-shade);
     border-radius: 5px;
     border: none;

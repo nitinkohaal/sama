@@ -169,6 +169,14 @@
         padding: 8px;
     }
 
+    .latest-item-seen{
+        top: 10px;
+        right: 10px;
+        height: 25px;
+        width: 25px;
+        font-size: 12px;
+    }
+
        .latest-btn{
         height: 35px;
     width: 35px;
