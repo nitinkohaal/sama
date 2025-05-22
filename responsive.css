@@ -24,7 +24,7 @@
         left: -130px;
     }
 
-    .accessories-item-img{
+    .latest-item-img{
         height: 150px;
     }
 
@@ -48,6 +48,24 @@
      .nav-items-list {
     gap: 23px;
 }
+
+/* .accessories */
+
+
+
+.accessories-name{
+    font-size: 16px;
+}
+
+.accessories-desc{
+    font-size: 14px;
+}
+
+.accesories-section{
+    padding: 50px 0;
+}
+
+
 
 
 
@@ -88,6 +106,7 @@
    .shop-catory-img{
     right: 10%;
    }
+
 }
 
 
@@ -124,17 +143,17 @@
     }
 
 
-    .accessories-name{
+    .latest-name{
         font-size: 13px;
     }
 
-    .accessories-title{
+    .latest-title{
         font-size: 20px;
         
     
     }
 
-    .accessories-desc{
+    .latest-desc{
         font-size: 12px;
     }
 
@@ -146,11 +165,11 @@
         width: 100%;
     }
     
-    .accessories-item{
+    .latest-item{
         padding: 8px;
     }
 
-       .accessories-btn{
+       .latest-btn{
         height: 35px;
     width: 35px;
         font-size: 18px;
@@ -169,6 +188,47 @@
 
    .btn-cara{
     padding: 0 5px;
+   }
+
+   /* .accessories */
+
+   .accessories-item{
+    padding: 10px;
+   }
+
+   .accessories-name{
+    font-size: 14px;
+    font-weight: 400;
+   }
+    .accessories-desc{
+     font-size: 13px;
+     font-weight: 400;
+    }
+
+    
+   .accessories-price-fake{
+    font-size: 12px;
+    font-weight: 400;
+   }
+   .accessories-price{
+    font-size: 14px;
+    font-weight: 400;
+   }
+
+   .accessories-btn-add{
+    padding: 4px 8px;
+    font-size: 10px;
+   }
+
+   .accessories-btn-see{
+        height: 22px;
+    width: 22px;
+    font-size: 12px;
+
+   }
+
+   .accesories-section{
+    padding: 50px 0;
    }
 
     
@@ -277,7 +337,7 @@
     height: 250px;
    }
 
-   .accessories-container{
+   .latest-container{
     padding: 25px 0;
    }
 
@@ -316,24 +376,49 @@
     font-size: 12px;
     }
 
-    .accessories-item-img{
+    .latest-item-img{
         height: 130px;
     }
 
-    .accessories-title-2-1-fake{
+    .latest-title-2-1-fake{
         font-size: 10px;
     }
 
-    .accessories-title-2-1{
+    .latest-title-2-1{
         font-size: 12px;
     }
 
-    .accessories-btn{
+    .latest-btn{
         height: 30px;
-    width: 30px;
+        width: 30px;
         font-size: 14px;
     }
 
+    /* .accessories */
+
+    .accessories-title{
+        font-size: 20px;
+    }
+
+    .accessories-see-all{
+        font-size: 14px;
+        white-space: nowrap;
+    }
   
+    .accesories-section{
+        padding: 25px 0;
+    }
     
+}
+
+@media screen and (min-width: 426px) and (max-width: 645px){
+    .accessories-name{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .accessories-desc{
+        font-size: 16px;
+        font-weight: 400;
+    }
 }

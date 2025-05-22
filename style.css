@@ -13,10 +13,12 @@
 
 :root{
     
-    --secondary-color:#dd4024;
-    --primary-color:#2F2E34;
-    --white-shade:#efefef;
-    --para-shade: #777777;
+    --secondary-color:#dd3e22;
+    --primary-color:#2f2e33;
+    --white-shade:#f0f0f0;
+    --para-shade: #787878;
+    --text-color: #d8c7fc;
+
     
     
     
@@ -128,7 +130,7 @@ body{
  }
 
  .search-box::placeholder {
-   color: var(--text-color);
+   color: var(--primary-color);
    font-size: 16px;
    font-weight: 200;
  }
@@ -148,13 +150,13 @@ body{
  .divider {
    height: 90%;
    width: 1px;
-   background-color:var(--text-color);
+   background-color:var(--primary-color);
    margin: 0 12px;
  }
 
  .search-icon {
    font-size: 18px;
-   color: var(--text-color);
+   color: var(--primary-color);
    cursor: pointer;  
  }
 
@@ -165,7 +167,7 @@ body{
  .nav-item{
    font-size: 16px;
    font-weight: 300;
-   color: var(--text-color);
+   color: var(--primary-color);
    text-transform: uppercase;
    text-decoration: none;
    transition: all 0.3s ease;
@@ -223,7 +225,7 @@ body{
     font-size: clamp(60px, 15vw, 200px);
     font-weight: 900;
     line-height: 0.9;
-    color: var(--text-color);
+    color: var(--primary-color);
     text-transform: uppercase;
   }
 
@@ -231,7 +233,7 @@ body{
     font-size: 48px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--text-color);
+    color: var(--primary-color);
     text-transform: uppercase;
     z-index: 7;
   }
@@ -285,7 +287,7 @@ body{
     text-transform: uppercase;
     font-weight: 300;
     font-size: 16px;
-    color: var(--text-color);
+    color: var(--primary-color);
     position: absolute;
     rotate: 90deg;
     white-space: nowrap;
@@ -465,7 +467,7 @@ body{
 
   /* accessories product  */
 
-  .accessories-section{
+  .latest-section{
     background-color: var(--white-shade);
   }
 
@@ -476,7 +478,7 @@ body{
     text-transform: uppercase;
   }
 
-  .accessories-container{
+  .latest-container{
     padding:50px 0 ;
     /* background-color: var(--primary-color); */
   }
@@ -496,7 +498,7 @@ body{
     background-color: #2f2e344b;
   }
     
-  .accessories-title{
+  .latest-title{
     font-size: 24px;
     font-weight: 700;
     color: var(--primary-color);
@@ -504,7 +506,7 @@ body{
 
   }
 
-  .accessories-para{
+  .latest-para{
     font-size: 16px;
     font-weight: 300;
     color: var(--para-shade);
@@ -513,7 +515,7 @@ body{
     letter-spacing: 0.3;
   }
 
-  .accessories-item{
+  .latest-item{
     padding: 15px;
     background-color: var(--white-shade);
     border-radius: 10px;
@@ -527,7 +529,7 @@ body{
 
   
 
-  .accessories-item-img{
+  .latest-item-img{
     height: 200px;
     border-radius: 10px;
     background-color: #ffffff;
@@ -605,12 +607,12 @@ body{
 
 
 /* 
-  .accessories-item-img img{
+  .latest-item-img img{
     object-fit: contain;
     object-position: center;
   } */
 
-  .accessories-title-2-1-fake{
+  .latest-title-2-1-fake{
     font-size: 12px;
     font-weight: 500;
     color: var(--para-shade);
@@ -618,28 +620,28 @@ body{
     text-decoration: line-through;
 
   }
-  .accessories-title-2-1{
+  .latest-title-2-1{
     font-size: 14px;
     font-weight: 500;
     color: var(--primary-color);
     text-transform: uppercase;
   }
 
-  .accessories-name{
+  .latest-name{
     font-size: 16px;
     font-weight: 600;
     color: var(--primary-color);
     text-transform: capitalize;
   }
 
-  .accessories-desc{
+  .latest-desc{
     font-size: 14px;
     font-weight: 400;
     color: var(--primary-color);
     text-transform: capitalize;
   }
 
-  .accessories-btn{
+  .latest-btn{
     height:40px;
     width: 40px;
     border-radius: 50%;
@@ -656,26 +658,26 @@ body{
 
   }
 
-  .accessories-btn:hover{
+  .latest-btn:hover{
     cursor: pointer;
   }
 
 
 
-  .accessories-content-2-1::-webkit-scrollbar{
+  .latest-content-2-1::-webkit-scrollbar{
     height: 5px;
     background-color: var(--primary-color);
   }
-  .accessories-content-2-1::-webkit-scrollbar-thumb{
+  .latest-content-2-1::-webkit-scrollbar-thumb{
     background-color: var(--secondary-color);
   }
 
-  .accessories-content-2-1::-webkit-scrollbar-thumb:hover{
+  .latest-content-2-1::-webkit-scrollbar-thumb:hover{
     background-color: var(--white-shade);
     cursor: grabbing;
   }
 
-  .accessories-content-2-1::-webkit-scrollbar-track{
+  .latest-content-2-1::-webkit-scrollbar-track{
     background-color: var(--primary-color);
     border-radius: 30px;
     
@@ -871,6 +873,122 @@ body{
     padding: 5px 12px ;
     font-size: 12px;
   }
+
+
+
+  /* accessories-section */
+
+  .accesories-section{
+    background-color: var(--white-shade);
+    padding: 100px 0;
+  }
+
+  .accessories-content-2{
+    padding: 30px 0 0 0 ;
+  }
+
+  .accessories-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-transform: capitalize;
+  }
+
+  .accessories-item{
+    padding: 15px;
+    background-color: var(--white-shade);
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px  #00000028;
+    transition: all 0.3s ease;
+    position: relative;
+
+  }
+  
+
+ 
+  .accessories-item-img{
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 100%;
+    box-shadow: 0px 0px 5px #00000028;
+  }
+  .accessories-item-img img{
+    width: 90%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .accessories-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-transform: capitalize;
+  }
+
+  .accessories-desc{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--para-shade);
+    text-transform: capitalize;
+  }
+
+  .accessories-price-fake{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--para-shade);
+    text-decoration: line-through;
+    text-transform: capitalize;
+  }
+
+  .accessories-price{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-transform: capitalize;
+  }
+
+  .accessories-btn-see{
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: var(--secondary-color);
+    color: var(--white-shade);
+    border: none;
+    /* position: absolute; */
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .accessories-btn-add{
+    padding: 5px 10px;
+    font-size: 14px;
+    text-transform: capitalize;
+    background-color: var(--secondary-color);
+    color: var(--white-shade);
+    border-radius: 5px;
+    border: none;
+  }
+
+  .line-2{
+    height: 0.5px;
+    background-color: var(--primary-color);
+  } 
+
+  .accessories-see-all{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+
+  
+
   
 
   
