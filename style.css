@@ -517,9 +517,9 @@ body{
 
   .latest-item{
     padding: 15px;
-    background-color: var(--white-shade);
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #00000020;
+    box-shadow: 0px 0px 5px #00000020;
     transition: all 0.3s ease;
     position: relative;
   }
@@ -551,7 +551,7 @@ body{
   .latest-item-img{
     height: 200px;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: var(--white-shade);
     backdrop-filter: blur(8px);
     position: relative;
 
@@ -591,7 +591,7 @@ body{
 
     .btn-cara {
       background-color: transparent;
-      color: var(--white-shade);
+      color: var(--para-shade);
       padding:5px 15px;
       border: none;
       border-radius: 5px;
