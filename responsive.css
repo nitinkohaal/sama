@@ -239,6 +239,11 @@
     padding: 50px 0;
    }
 
+   /* .faq-h2 */
+
+   .faq-h2{
+    font-size: 25px;
+   }
     
 
     
@@ -416,7 +421,23 @@
     .accesories-section{
         padding: 25px 0;
     }
+
+    /* faq  */
+
+    .faq-question h3{
+        font-size: 16px;
+    }
+
+    .faq-answer p{
+        font-size: 14px;
+    }
     
+    .faq-h2{
+        font-size: 20px;
+    }
+    .faq-container{
+        padding: 25px 0;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 645px){
