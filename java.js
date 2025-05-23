@@ -175,3 +175,123 @@ window.addEventListener("scroll", () => {
     prevBtn.addEventListener('click', () => moveSlide(-1));
     nextBtn.addEventListener('click', () => moveSlide(1));
   });
+
+
+
+  
+  // FAQ accordion
+
+
+  document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentNode;
+                item.classList.toggle('active');
+                
+                // Close other open items
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+            });
+        });
+
+
+
+        
+  //  <section class="faq-container container-fluid">
+
+  //   <div class="faq-list container  ">
+  //     <div class="faq-header my-2 my-md-5">
+
+  //       <h2 class="faq-h2">Frequently Asked Questions</h2>
+  //     </div>
+
+  //     <div class="faq-item">
+  //       <div class="faq-question">
+  //         <h3>Are these accessories compatible with my Royal Enfield model?</h3>
+  //       </div>
+  //       <div class="faq-answer">
+  //         <p>Yes! Most products list compatible models (e.g., Classic 350, Himalayan) in the description. For specific
+  //           compatibility, contact our support team via WhatsApp.</p>
+  //       </div>
+  //     </div>
+
+  //     <div class="faq-item">
+  //       <div class="faq-question">
+  //         <h3>What's your delivery time?</h3>
+  //       </div>
+  //       <div class="faq-answer">
+  //         <p>Standard shipping takes 3-7 days in India and 7-15 days internationally. Express shipping options are
+  //           available at checkout.</p>
+  //       </div>
+  //     </div>
+
+  //     <div class="faq-item">
+  //       <div class="faq-question">
+  //         <h3>Do you offer installation guides for accessories?</h3>
+  //       </div>
+  //       <div class="faq-answer">
+  //         <p>Most accessories come with DIY guides. For complex installations, we recommend professional help or refer
+  //           to our YouTube tutorials.</p>
+  //       </div>
+  //     </div>
+
+  //     <div class="faq-item">
+  //       <div class="faq-question">
+  //         <h3>What if the product doesn't fit my bike?</h3>
+  //       </div>
+  //       <div class="faq-answer">
+  //         <p>We offer 7-day returns for unused items in original packaging. Check sizing charts or contact us before
+  //           ordering to ensure perfect fitment.</p>
+  //       </div>
+  //     </div>
+
+  //     <div class="faq-item">
+  //       <div class="faq-question">
+  //         <h3>Can I return an item?</h3>
+  //       </div>
+  //       <div class="faq-answer">
+  //         <p>Yes! We offer 7-day returns for unused items in original packaging. Check sizing charts or contact us
+  //           before ordering to ensure perfect fitment.</p>
+  //       </div>
+
+
+  //     </div>
+
+  //     <div class="faq-item">
+  //       <div class="faq-question">
+  //         <h3>Do you offer international shipping?</h3>
+  //       </div>
+  //       <div class="faq-answer">
+  //         <p>Yes! We ship worldwide. Shipping costs and delivery times vary by location. Check our shipping policy for
+  //           details.</p>
+  //       </div>
+  //     </div>
+
+  //     <div class="faq-item">
+  //       <div class="faq-question">
+  //         <h3>What payment methods do you accept?</h3>
+  //       </div>
+  //       <div class="faq-answer">
+  //         <p>We accept major credit cards, PayPal, and Cash on Delivery (COD) for Indian orders. International orders
+  //           require prepayment via PayPal/credit card.</p>
+  //       </div>
+  //     </div>
+
+  // </section>
+
+
+    document.querySelectorAll('.footer-acc').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentNode;
+                item.classList.toggle('active');
+                
+                // Close other open items
+                document.querySelectorAll('.footer-item').forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+            });
+        });
