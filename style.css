@@ -727,6 +727,8 @@ body {
 .hero-tag-section{
   background-color: var(--white-shade);
   padding: 50px 0;
+  position: relative;
+
 }
 
 
@@ -734,7 +736,6 @@ body {
 .hero-tag {
   z-index: 2;
   border-radius: 30px;
-  padding-bottom: 50px;
 }
 
 
@@ -780,7 +781,6 @@ body {
 }
 
 .hero-tag-carousel-wrapper {
-  position: relative;
 }
 
 .hero-tag-carousel {
