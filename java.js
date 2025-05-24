@@ -1,24 +1,24 @@
-let nav = document.getElementById('nav');
+// let nav = document.getElementById('nav');
 
 
-let lastScrollTop = 0;
-let isScrolling = false;
+// let lastScrollTop = 0;
+// let isScrolling = false;
 
-window.addEventListener("scroll", () => {
-  if (isScrolling) return;
-    isScrolling = true;
-    window.requestAnimationFrame(function () {
-        let st = window.pageYOffset || document.documentElement.scrollTop;
-        if (st > lastScrollTop) {
+// window.addEventListener("scroll", () => {
+//   if (isScrolling) return;
+//     isScrolling = true;
+//     window.requestAnimationFrame(function () {
+//         let st = window.pageYOffset || document.documentElement.scrollTop;
+//         if (st > lastScrollTop) {
           
-            gsap.to(nav, { duration: 0.5, top: "-130px" });
-        } else {
-            gsap.to(nav, { duration: 0.5, top: "0px" });
-        }
-        lastScrollTop = st;
-        isScrolling = false;
-    });
-});
+//             gsap.to(nav, { duration: 0.5, top: "-130px" });
+//         } else {
+//             gsap.to(nav, { duration: 0.5, top: "0px" });
+//         }
+//         lastScrollTop = st;
+//         isScrolling = false;
+//     });
+// });
 
   const progressCircle = document.querySelector('.progress-ring-circle');
   const scrollUpBtn = document.getElementById('scroll-up');
@@ -295,3 +295,27 @@ window.addEventListener("scroll", () => {
                 });
             });
         });
+
+
+        
+
+
+  const carousel = document.querySelector('.hero-tag-carousel');
+  const btnLeft = document.querySelector('.scroll-btn.left');
+  const btnRight = document.querySelector('.scroll-btn.right');
+  const scrollAmount = 220;
+
+  btnLeft.addEventListener('click', () => {
+    carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+
+  btnRight.addEventListener('click', () => {
+    const maxScrollLeft = carousel.scrollWidth - carousel.clientWidth;
+
+    // If at or near end, go back to start
+    if (carousel.scrollLeft + scrollAmount >= maxScrollLeft) {
+      carousel.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  });

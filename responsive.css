@@ -164,14 +164,8 @@
         font-size: 12px;
     }
 
-    .search-bike{
-        width: 150px;
-    }
 
-    .search-bike{
-        width: 100%;
-    }
-    
+ 
     .latest-item{
         padding: 8px;
     }
@@ -179,6 +173,8 @@
     .latest-item-seen{
        padding: 6px 10px;
     font-size: 12px;
+     top: 12px;
+        right: 12px;
     }
 
        .latest-btn{
@@ -250,8 +246,28 @@
    }
     
 
+   .model-name-1 {
+    bottom: 5px;
+    right: 10px;
+    font-size: 14px;
+}
+
+.hero-tag-item {
+    width: 150px;
+    height: 150px;
+}
+
+.hero-tag-title {
+    font-size: 30px;
+}
+
+.hero-tag{
+        padding-bottom: 25px;
+    }
     
 }
+
+
 
 
 
@@ -302,8 +318,28 @@
 
     }
 
+    .hero-tag-section{
+            padding: 25px 0;
+    }
+
+    
+ 
+        .hero-tag-item {
+        width: 100px;
+        height: 110px;
+    }
+     .model-name-1 {
+        font-size: 10px;
+        bottom: 0px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .scroll-btn{
+        width: 30px;
+    }
     .hero-tag-title{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .All-btn{
@@ -316,6 +352,9 @@
         padding: 0 20px;
 
     }
+
+   
+    
     
     /* fetaure  */
 
@@ -467,8 +506,7 @@
     .latest-item-seen{
         padding: 3px 6px;
         font-size: 12px;
-        top: 12px;
-        right: 12px;
+       
     }
 
     
