@@ -94,25 +94,54 @@ scrollUpBtn.addEventListener("click", () => {
 
 // catogories carousel
 
-const carousel = document.querySelector(".hero-tag-carousel");
-const btnLeft = document.querySelector(".scroll-btn.left");
-const btnRight = document.querySelector(".scroll-btn.right");
-const scrollAmount = 220;
 
-btnLeft.addEventListener("click", () => {
-  carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
-});
 
-btnRight.addEventListener("click", () => {
-  const maxScrollLeft = carousel.scrollWidth - carousel.clientWidth;
+  const carousel = document.querySelector('.hero-tag-carousel');
+  // const items = Array.from(carousel.children);
+  const scrollAmount = 220;
 
-  // If at or near end, go back to start
-  if (carousel.scrollLeft + scrollAmount >= maxScrollLeft) {
-    carousel.scrollTo({ left: 0, behavior: "smooth" });
-  } else {
-    carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
-  }
-});
+  
+
+  // Scroll buttons
+  const btnLeft = document.querySelector('.scroll-btn.left');
+  const btnRight = document.querySelector('.scroll-btn.right');
+
+  btnLeft.addEventListener('click', () => {
+    carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+
+  btnRight.addEventListener('click', () => {
+    carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });
+
+
+
+// const carousel = document.querySelector(".hero-tag-carousel");
+// const cards = carousel.querySelectorAll(".hero-tag-item");
+
+// const btnLeft = document.querySelector(".scroll-btn.left");
+// const btnRight = document.querySelector(".scroll-btn.right");
+// const scrollAmount = 300;
+
+// cards.forEach((card) => {
+  
+
+// });
+
+// btnLeft.addEventListener("click", () => {
+//   carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+// });
+
+// btnRight.addEventListener("click", () => {
+//   const maxScrollLeft = carousel.scrollWidth - carousel.clientWidth;
+
+//   // If at or near end, go back to start
+//   if (carousel.scrollLeft + scrollAmount >= maxScrollLeft) {
+//     carousel.scrollTo({ left: 0, behavior: "smooth" });
+//   } else {
+//     carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
+//   }
+// });
 
 
 

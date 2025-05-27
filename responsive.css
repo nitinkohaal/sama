@@ -76,7 +76,7 @@
 @media screen and (max-width: 1024px){
     .hero{
         height: fit-content;
-        padding-top: 160px;
+        /* padding-top: 10px; */
     }
 }
 
@@ -279,8 +279,9 @@
         height: 30px;
     }
 
-    .hero-section{
-        height: 80dvh;
+    .btn-secondary{
+        padding: 8px 14px;
+        font-size: 14px;
     }
 
     .hero-para{
@@ -333,8 +334,13 @@
     }
 
     .scroll-btn{
-        width: 30px;
+           width: 20px;
+        font-size: 18px;
     }
+
+    .hero-tag-carousel {
+  padding: 0px 25px;
+}
     .hero-tag-title{
         font-size: 20px;
     }
@@ -350,8 +356,6 @@
 
     }
 
-   
-    
     
     /* fetaure  */
 

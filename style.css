@@ -249,7 +249,7 @@ body {
 }
 
 .hero {
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
   padding-bottom: 50px;
   z-index: 1;
   position: relative;
@@ -727,7 +727,6 @@ body {
 .hero-tag-section{
   background-color: var(--white-shade);
   padding: 50px 0;
-  position: relative;
 
 }
 
@@ -766,8 +765,9 @@ body {
   width: 80%;
   object-fit: cover;
   object-position: center;
-  scale: 1.5;
+  scale: 1.4;
   transition: all 0.3s ease;
+  overflow: hidden;
 
 }
 .model-name-1{
@@ -781,6 +781,8 @@ body {
 }
 
 .hero-tag-carousel-wrapper {
+  position: relative;
+
 }
 
 .hero-tag-carousel {
@@ -802,30 +804,35 @@ body {
   transform: translateY(-50%);
   z-index: 10;
   border: none;
-  height: 100%;
-  width: 50px;
+  height: 100px;
+  width: 30px;
   font-size: 24px;
   cursor: pointer;
   z-index: 100;
-  background-color: transparent;
-  color: var(--secondary-color);
-  filter:drop-shadow(0px 0px 5px #000000f7);
+  background-color: var(--white-shade);
+  color: var(--primary-color);
+  filter:drop-shadow(0px 0px 5px #00000036);
 }
 
 .scroll-btn.left {
   left: 0px;
+  border-radius: 0px 20px 20px 0px;
 }
 
 .scroll-btn.right {
   right: 0px;
+  border-radius: 20px 0px 0px 20px;
 }
 
 .hero-tag-carousel::-webkit-scrollbar {
   display: none;
+  
+ 
 }
+
+
 .hero-tag-carousel {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  padding: 0px 35px;
 }
 
 
@@ -859,6 +866,9 @@ body {
 
 }
 
+.shop-catory-1-content{
+  z-index: 2;
+}
 
 
 .shop-catory-img {
@@ -866,6 +876,7 @@ body {
   position: absolute;
   right: 10px;
   height: 90%;
+  z-index: 1;
 }
 
 .show-catory-2 {
@@ -935,9 +946,6 @@ body {
   padding: 50px 0;
 }
 
-.accessories-content-2 {
-  padding: 30px 0 0 0;
-}
 
 .accessories-title {
   font-size: 30px;
