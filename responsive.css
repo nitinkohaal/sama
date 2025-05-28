@@ -124,6 +124,18 @@
     .nav-bar{
         padding: 20px 0;
     }
+
+    .search-container{
+        padding: 5px 12px;
+    }
+
+   .search-box{
+    width: 110px;
+   }
+
+   .search-box::placeholder{
+    font-size: 12px;
+   }
     .about{
         padding: 50px 0;
     }
@@ -280,13 +292,21 @@
     }
 
     .btn-secondary{
-        padding: 8px 14px;
-        font-size: 14px;
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .nav-bar{
+        padding: 10px 0;
     }
 
     .hero-para{
         font-size: 30px;
         letter-spacing: 5px;
+    }
+
+    .hero{
+        padding: 100px 0 25px 0;
     }
 
     .title{

@@ -10,7 +10,7 @@
 //         let st = window.pageYOffset || document.documentElement.scrollTop;
 //         if (st > lastScrollTop) {
 
-//             gsap.to(nav, { duration: 0.5, top: "-130px" });
+//             gsap.to(nav, { duration: 0.5, padding: "0px", });
 //         } else {
 //             gsap.to(nav, { duration: 0.5, top: "0px" });
 //         }
